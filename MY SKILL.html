@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Navigation */
+        nav {
+            background-color: royalblue;
+            text-align: center;
+            padding: 15px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        body {
+            background-image: url('https://source.unsplash.com/1600x900/?technology');
+            background-size: cover;
+            background-position: center;
+            color: white; /* Set text color to white for better visibility */
+        }
+
+        .skills-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        .skill {
+            width: 200px;
+            margin-bottom: 20px;
+            padding: 20px;
+            border: 1px solid white;
+            border-radius: 5px;
+            text-align: center;
+            background-color: black; 
+        }
+
+        .skill h2 {
+            margin-bottom: 10px;
+        }
+
+        .skill-bar {
+            background-color: black;
+            height: 20px;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .skill-level {
+            height: 100%;
+            background-color: #4CAF50;
+            border-radius: 10px;
+            line-height: 20px;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <td>
+            <a href="Index.html" style="text-decoration:none">
+                <font face="Verdana" size="5" color=black>
+                    Home
+                </font>
+            </a>
+        </td>
+
+        <td>
+            |
+        </td>
+
+        <td>
+            <a href="About.html" style="text-decoration:none">
+                <font face="Verdana" size="5" color=black>
+                    About
+                </font>
+            </a>
+        </td>
+
+        <td>
+            |
+        </td>
+
+        <td>
+            <a href="Biodata.html" style="text-decoration:none">
+                <font face="Verdana" size="5" color="black">
+                    Biodata
+                </font>
+            </a>
+        </td>
+
+        <td>
+            |
+        </td>
+
+        <td>
+            <a href="Contact.html" style="text-decoration:none">
+                <font face="Verdana" size="5" color=black>
+                    Contact
+                </font>
+            </a>
+        </td>
+    </nav>
+
+    <div class="skills-container">
+        <header>
+            <h1>MY SKILL</h1>
+        </header>
+
+        <div class="skill">
+            <h2>HTML</h2>
+            <p>Hypertext Markup Language yang merupakan sebuah bahasa markup.Bahasa markup yang digunakan untuk membuat struktur dan konten pada halaman web.</p>
+            <div class="skill-bar">
+                <div class="skill-level html">80%</div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <h2>CSS</h2>
+            <p>Cascading Style Sheets adalah Bahasa stylesheet.Bahasa stylesheet  digunakan untuk menggambarkan tampilan dari dokumen yang ditulis dalam HTML atau XML.</p>
+            <div class="skill-bar">
+                <div class="skill-level css">50%</div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <h2>PHP</h2>
+            <p>Hypertext Preprocessor(PHP)Bahasa pemrograman server-side yang banyak digunakan untuk pengembangan web.</p>
+            <div class="skill-bar">
+                <div class="skill-level php">80%</div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <h2>JavaScript</h2>
+            <p>Bahasa pemrograman yang digunakan untuk membuat interaksi pada halaman web.</p>
+            <div class="skill-bar">
+                <div class="skill-level javascript">50%</div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <h2>CodeIgniter</h2>
+            <p>Framework PHP yang bersifat open-source untuk pengembangan aplikasi web.</p>
+            <div class="skill-bar">
+                <div class="skill-level codeigniter">50%</div>
+            </div>
+        </div>
+
+        <div class="skill">
+            <h2>Laravel</h2>
+            <p>Framework PHP yang bersifat open-source untuk pengembangan aplikasi web.</p>
+            <div class="skill-bar">
+                <div class="skill-level laravel">50%</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

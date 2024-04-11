@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tentang </title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+    /* Navigation */
+nav {
+  background-color: royalblue;
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.hero {
+            height: 100vh;
+            background-image: url('https://source.unsplash.com/random');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color:grey;
+}
+
+#aboutUs {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#aboutUs img {
+    width: 400px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.content {
+    margin: 20px 0;
+}
+
+.content h2 {
+    font-size: 50px;
+    color: #ffca70;
+}
+
+.content h4 {
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.description {
+    color: whitesmoke;
+    margin: 20px 0;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 100;
+}
+
+.btn {
+    font-weight: bold;
+    border: 2px solid #ffca70;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.4s;
+    background-color: #ffca70;
+}
+
+.btn:hover {
+    border: 2px solid #ffca70;
+    background: transparent;
+    color: #ffca70;
+}
+
+@media screen and (max-width: 790px) {
+    #aboutUs img {
+        width: 80%;
+    }
+
+    #aboutUs {
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color:black;
+  border-top: 1px solid #ddd;
+}
+footer p {
+  color: #666;
+  font-size: 14px;
+}
+
+</style>
+
+
+<body>
+
+    <nav>
+        <td>
+          <a href="Index.html"
+             style="text-decoration:none">
+              <font face="Verdana"
+              size="5" color="black">
+                  Home
+              </font>
+          </a>
+      </td>
+  
+           <td>
+                              |
+                          </td>
+   
+                          <td>
+                              <a href="About.html"
+                                 style="text-decoration:none">
+                                  <font face="Verdana"
+                                  size="5" color="black">
+                                      About
+                                  </font>
+                              </a>
+                          </td>
+  
+          <td>
+                              |
+                          </td>
+   
+                          <td>
+                            <a href="Biodata.html"
+                            style="text-decoration:none">
+                             <font face="Verdana"
+                             size="5" color="black">
+                                 Biodata
+                                 
+                                  </font>
+                              </a>
+                          </td>
+  
+                          <td>
+                            |
+                        </td>
+  
+                        <td>
+                            <a href="Contact.html"
+                               style="text-decoration:none">
+                                <font face="Verdana"
+                                size="5" color="black">
+                                    Contact
+                                </font>
+                            </a>
+                        </td>
+  
+      </nav>
+
+      <section id="aboutUs">
+        <img src="./ASET/img/ME_1.jpg" alt="computer user">
+        <div class="content">
+            <h2>About Us</h2>
+            <p class="description">
+                Hi, saya adalah web developer yang berdomisili di Yogyakarta. Saat ini sedang belajar HTML di Universitas Mercu Buana Yogyakarta.
+                Saya memang masih baru dalam web development, karena itu saya tidak akan pernah berhenti belajar.
+                Saya ingin menguasai bahasa HTML, CSS, dan Javascript. 
+            </p>
+            <p class="description">
+                Selain itu, saya juga memiliki minat dalam desain antarmuka pengguna (UI) dan pengalaman pengguna (UX).Saya sering  membaca artikel-artikel terbaru untuk meningkatkan keterampilan saya dalam hal ini.
+                Sejauh ini, saya telah mengembangkan beberapa proyek kecil, termasuk pembuatan website portfolio pribadi dan beberapa halaman web sederhana.
+            </p>
+            <p class="description">
+                Selain fokus pada pengembangan web, saya juga tertarik dalam mempelajari teknologi terbaru dalam industri IT, seperti pemrograman aplikasi mobile dan pengembangan perangkat lunak berbasis cloud.
+                Saya percaya bahwa dengan semangat belajar yang kuat dan komitmen untuk terus berkembang, saya akan mencapai tujuan saya untuk menjadi seorang web developer yang terampil dan inovatif.
+                Info selengkapnya klik button Portafolio di bawah!!!!
+            </p>
+            
+            <td>
+                <a href="Portafolio.html" style="text-decoration:none; background-color:royalblue; padding: 10px 20px; border-radius: 5px; display: inline-block;">
+                    <font face="Verdana" size="8" color="black">Portafolio</font>
+                </a>
+                
+            </td>
+
+        </div>
+    </section>
+
+
+    <footer style="text-align: center;">
+        <p>Copyright &copy; 2024 Maria Anggelina.</p>
+    </footer>
+
+</body>
+</html>

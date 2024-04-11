@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+ <style>
+
+
+  /* styles.css */
+
+/* Reset default browser styles */
+
+nav {
+  background-color: royalblue;
+  text-align: center;
+  padding: 15px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.hero {
+            height: 100vh;
+            background-image: url('https://source.unsplash.com/random');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set font family and background color */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color:grey;
+}
+
+/* Header styles */
+header {
+    background-color: burlywood;
+    color: royalblue;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Container styles */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Project styles */
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    width: calc(33.33% - 20px);
+    margin-bottom: 40px;
+    background-color: burlywood;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: black;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover {
+    transform: translateY(-10px);
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project:hover img {
+    transform: scale(1.1);
+}
+
+.project-content {
+    padding: 20px;
+}
+
+.project h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.project p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.project a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.project a:hover {
+    background-color: #0056b3;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+
+
+
+        <td>
+          <a href="Index.html"
+             style="text-decoration:none">
+              <font face="Verdana"
+                    size="5" color=black>
+                  Home
+              </font>
+          </a>
+      </td>
+  
+           <td>
+                              |
+                          </td>
+   
+                          <td>
+                              <a href="About.html"
+                                 style="text-decoration:none">
+                                  <font face="Verdana"
+                                        size="5" color=black>
+                                      About
+                                  </font>
+                              </a>
+                          </td>
+  
+          <td>
+                              |
+                          </td>
+   
+                          <td>
+                            <a href="Biodata.html"
+                            style="text-decoration:none">
+                             <font face="Verdana"
+                             size="5" color="black">
+                               Biodata
+                               
+                                  </font>
+                              </a>
+                          </td>
+  
+                          <td>
+                            |
+                        </td>
+  
+                        <td>
+                            <a href="Contact.html"
+                               style="text-decoration:none">
+                                <font face="Verdana"
+                                      size="5" color=black>
+                                    Contact
+                                </font>
+                            </a>
+                        </td>
+  
+      </nav>
+
+
+<div class="container">
+    <header>
+        <h1>Portafolio</h1>
+    </header>
+
+    <section class="projects">
+        <div class="project">
+            <img src="./ASET/img/css.png" alt="Proyek CSS">
+            <div class="project-content">
+                <h2>Proyek CSS</h2>
+                <p>Proyek ini menampilkan kemampuan saya dalam menggunakan CSS. Saya memanfaatkan berbagai teknik CSS termasuk flexbox, grid, animasi, dan transisi untuk membuat desain web responsif dan menarik secara visual.</p>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="./ASET/img/html.jpeg" alt="Proyek HTML">
+            <div class="project-content">
+                <h2>Proyek HTML</h2>
+                <p>Proyek ini menunjukkan kemampuan saya dalam menggunakan HTML untuk membangun struktur dasar halaman web.Saya fokus pada penggunaan elemen HTML semantik dan praktik terbaik untuk meningkatkan aksesibilitas</p>
+             
+            </div>
+        </div>
+        
+        <div class="project">
+            <img src="./ASET/img/javascript.jpeg" alt="Proyek JavaScript">
+            <div class="project-content">
+                <h2>Proyek JavaScript</h2>
+                <p>Proyek ini menunjukkan kemampuan saya dalam menggunakan JavaScript untuk membuat interaktivitas pada halaman web.Saya mengimplementasikan berbagai fitur seperti manipulasi DOM,animasi,validasi formulir, dan interaksi dengan API untuk meningkatkan pengalaman pengguna.</p>
+            </div>
+        </div>
+
+        <div class="project">
+            <img src="./ASET/img/PHP.jpeg" alt="Proyek PHP">
+            <div class="project-content">
+                <h2>PHP</h2>
+                <p>Proyek ini menunjukkan kemampuan saya dalam menggunakan PHP untuk mengembangkan aplikasi web. Saya mengimplementasikan berbagai fitur seperti manipulasi DOM, animasi, validasi formulir, dan interaksi dengan API untuk meningkatkan pengalaman pengguna.</p>
+            </div>
+        </div>
+        
+        <div class="project">
+            <img src="./ASET/img/CodeIgniter.jpeg" alt="Proyek CodeIgniter">
+            <div class="project-content">
+                <h2>CodeIgniter</h2>
+                <p>Proyek ini menunjukkan kemampuan saya dalam menggunakan framework CodeIgniter untuk mengembangkan aplikasi web. Saya mengimplementasikan berbagai fitur seperti manipulasi DOM, animasi, validasi formulir, dan interaksi dengan API untuk meningkatkan pengalaman pengguna.</p>
+            </div>
+        </div>
+       
+        <div class="project">
+            <img src="./ASET/img/laravel.jpeg" alt="Proyek Laravel">
+            <div class="project-content">
+                <h2>Laravel</h2>
+                <p>Proyek ini menunjukkan kemampuan saya dalam menggunakan framework PHP Laravel untuk mengembangkan aplikasi web. Saya mengimplementasikan berbagai fitur seperti manipulasi DOM, animasi, validasi formulir, dan interaksi dengan API untuk meningkatkan pengalaman pengguna.</p>
+            </div>
+        </div>
+
+        <a href="MY SKILL.html" class="btn"><strong>MY SKILL</strong></a>
+
+
+    </section>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
